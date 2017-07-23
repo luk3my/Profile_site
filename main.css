@@ -1,0 +1,626 @@
+
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+/*fonts*/
+
+h1 {
+  display: inline;
+  font-family: 'Special Elite', cursive;
+  font-family: 'Share Tech', sans-serif;
+  color: whitesmoke;
+  height: 50px;
+}
+
+h2 {
+   
+  display: inline;
+  font-family: 'Special Elite', cursive;
+  font-family: 'Share Tech', sans-serif;
+}
+
+
+h3 {
+    color: whitesmoke;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Share Tech', sans-serif;
+}
+
+p {
+
+clear: both;
+
+}
+
+
+/* ==========================================================================
+   COLOUR PALATE
+
+   mist (light- blue) #90AFC5
+   stone (mid blue) #336B87
+   shadow (darkish) #2A3132
+   
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Nav bar
+   ========================================================================== */
+
+/* ==========================================================================
+   Drop down button
+   ========================================================================== */
+
+
+/* ==========================================================================
+    Jumbotron 
+   ========================================================================== */
+
+ 
+#fullscreen-hero {
+    background-image: url("../img/jumboSml3.jpg");
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    background-color: #2A3A3F;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/* ==========================================================================
+   front page boxes
+   ========================================================================== */
+
+
+.hero-container {
+  
+    display: table;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%;
+
+
+}
+
+.hero-content{
+   
+    display: table-cell;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.home-logo img {
+    top: 2.5%;
+    display: inline-block;
+    left: 50%;
+    width: 280px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.links{
+    top: 70%;
+    display: inline-block;
+    left: 50%;
+    width: 280px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.b{
+    margin-top: 30px;
+}
+
+.button {
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: 'Share Tech', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background-color:rgba(128, 128, 128, 0.1);
+  padding: 10px 20px 10px 20px;
+  border: solid #f9c806 2px;
+  text-decoration: none;
+}
+
+.button:hover{
+  background: #f9c806;
+  text-decoration: none;
+}
+
+/*==========================================================================
+   About me page
+   ========================================================================== */
+.about-me{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-image: url("../img/tech.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.about-me h1{
+    position: relative;
+    top: 35px;
+    color: black;
+}
+
+.about-me h2{
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.about-me span{
+    width: 100%;
+}
+
+.sym {
+    position: relative;
+    top: 170px;
+}
+
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bulb{
+    
+    height: 100px;
+    width: 100px;
+}
+
+#flame{
+    height: 100px;
+    width: 100px;
+}
+
+#brackets{
+    height: 100px;
+    width: 100px;
+}
+
+.third{
+    height: 30vh;
+    width: 100%;
+    background-color: #2A3132;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.third h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.webicons{
+    position: relative;
+    top: 30%;
+}
+
+.weblang{
+    height: 100px;
+    width: 100px;
+}
+ /*==========================================================================
+   Portfolio page
+   ========================================================================== */
+
+.portfolio-page{
+    background-image: url("../img/Concrete.jpg");
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    background-color: #2A3A3F;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.portfolio-page h1{
+  position: relative;
+  top: 35px;
+  color: #f9c806;
+}
+
+.projects{
+  position: relative;
+  top: 80px;
+}
+
+.row-1 img, .row-2 img, .row-3 img{
+    border-radius: 5px;
+    border-style: ridge;
+}
+
+.hover{
+    filter: opacity(20%);
+    transition: 1s;
+}
+
+.t {
+    height: 200px;
+    width: 200px;
+}
+
+.chev1 {
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+}
+
+#chev1 {
+    margin-top: 30%;
+}
+
+/*==========================================================================
+   Contact page
+   ========================================================================== */
+
+.contact-page{
+    background-image: url("../img/jumboSml4.jpg");
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    background-color: #2A3A3F;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#lukepic {
+     top: 12.5%;
+    display: inline-block;
+    left: 50%;
+    width: 220px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.linkpic {
+    height: 90px;
+    width: 90px;
+}
+
+.links-box {
+    top: 45%;
+    display: inline-block;
+    left: 50%;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}    
+
+
+
+.email h2{
+    color: #f9c806;
+ 
+}
+
+.email {
+    top: 60%;
+    display: inline-block;
+    left: 50%;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.b2 {
+    top: 95%;
+    display: inline-block;
+    left: 50%;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#resume {
+    display: none;
+}
+
+#add {
+    display: none;
+}
+
+
+/* ==========================================================================
+   footer
+   ========================================================================== */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+   
+}
+
+footer p {
+    margin-top: 30px;
+}
+   /* ==========================================================================
+    Media queries
+   ========================================================================== */
+
+ @media screen and (max-width: 1280px) {
+  
+.t {
+    height: 150px;
+    width: 150px;
+}
+
+#chev2 {
+    margin-top: 5%;
+}
+
+}
+
+
+/* ==========================================================================
+    Laptop
+   ========================================================================== */
+
+ @media screen and (max-width: 1370px) and (max-height: 705px) {
+
+
+
+.links{
+    top: 60%;
+}
+
+.linkpic {
+    height: 70px;
+    width: 70px;
+}
+
+.t {
+    height: 100px;
+    width: 100px;
+}
+
+.home-logo img {
+    top: 0.5%;
+
+}
+
+.threesym {
+    position: relative;
+    top: -75px;
+}
+
+#chev1 {
+    margin-top: 18%;
+}
+
+ }
+
+   @media screen and (max-width: 1200px) and (max-height: 700px) {
+  
+.t {
+    height: 150px;
+    width: 150px;
+}
+
+.email h2{
+    font-size: 25px;
+}
+
+
+
+ @media screen and (max-width: 768px) {
+  
+.t {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
+
+.sym {
+    position: relative;
+    top: 60px;
+}
+
+#bulb{
+    
+    height: 70px;
+    width: 70px;
+}
+
+#flame{
+    height: 70px;
+    width: 70px;
+}
+
+#brackets{
+    height: 70px;
+    width: 70px;
+}
+
+.weblang {
+    height: 50px;
+    width: 50px;
+}
+
+.t {
+    height: 150px;
+    width: 150px;
+}    
+
+.linkpic {
+    height: 60px;
+    width: 60px;
+}
+
+#lukepic {
+    width: 180px;
+}
+
+.email h2 {
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+#here {
+    display: none;
+}
+
+#shoot {
+    display: none;
+}
+
+#resume {
+    display: block;
+}
+
+.b2 {
+    font-size: 20px;
+}
+
+#add {
+    display: inline-block;
+}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+.home-logo img {
+    height: 225px;
+    width: 225px;
+}
+
+.hero-content h1 {
+    font-size: 25px;
+}
+
+#typewriteText {
+    top: 10px;
+}
+
+#typewriteText {
+    position: relative;
+    top: 75px;
+}
+
+#bulb{
+    
+    height: 50px;
+    width: 50px;
+}
+
+#flame{
+    height: 50px;
+    width: 50px;
+}
+
+#brackets{
+    height: 50px;
+    width: 50px;
+}
+
+.button {
+    font-size: 14px;
+}
+
+
+}
+
+
+@media screen and (max-width: 370px) and (max-height: 650px) {
+
+.third{
+    height: 18%;
+    width: 100%;
+    background-color: #2A3132;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.webicons{
+    position: relative;
+    top: 30%;
+}
+
+.weblang{
+    height: 30px;
+    width: 30px;
+}
+
+.third h1{
+    top: 15px;
+    font-size: 20px;
+}
+
+
+}
